@@ -35,9 +35,9 @@ class Login extends Component {
       expires: 30,
       path: "/",
     });
-    <Navigate to="/" replace={true} />;
+    <Navigate to="/bhr-moneymatters" replace={true} />;
 
-    window.location.replace("/");
+    window.location.replace("/bhr-moneymatters");
   };
 
   fetching = async () => {
@@ -184,7 +184,7 @@ class Login extends Component {
       </div>
     ) : (
       //   <Navigate to="/" />
-      window.location.replace("/")
+      window.location.replace("/bhr-moneymatters")
     );
   }
 }

@@ -1,7 +1,5 @@
 import { Component } from "react";
 
-import { TailSpin } from "react-loader-spinner";
-
 import Cookies from "js-cookie";
 
 import TransactionsRouteListItems from "../TransactionsRouteListItems";

@@ -22,10 +22,14 @@ import "./App.css";
 
 const App = () => (
   <Routes>
-    <Route exact path="/login" element={<Login />} />
-    <Route exact path="/" element={<Accounts />} />
-    <Route exact path="/transactions" element={<TransactionRoute />} />
-    <Route exact path="/profile" element={<Profile />} />
+    <Route exact path="/bhr-moneymatters/login" element={<Login />} />
+    <Route exact path="/bhr-moneymatters/" element={<Accounts />} />
+    <Route
+      exact
+      path="/bhr-moneymatters/transactions"
+      element={<TransactionRoute />}
+    />
+    <Route exact path="/bhr-moneymatters/profile" element={<Profile />} />
     <Route path="*" element={<NotFound />} />
   </Routes>
 );

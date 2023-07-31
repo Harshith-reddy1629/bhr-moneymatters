@@ -255,8 +255,8 @@ class Profile extends Component {
     const userCreds = Cookies.get("secret_token");
 
     return userCreds === undefined ? (
-      //   <Navigate to="/login" />
-      window.location.replace("/login")
+      //   <Navigate to="/bhr-moneymatters/login" />
+      window.location.replace("/bhr-moneymatters/login")
     ) : (
       <div className="container">
         <Sidebar />
