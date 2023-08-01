@@ -1,6 +1,6 @@
 import { Component } from "react";
 
-// import { Navigate } from "react-router-dom";
+import { Navigate } from "react-router-dom";
 
 import Cookies from "js-cookie";
 
@@ -24,7 +24,8 @@ class Profile extends Component {
   componentDidMount() {
     const userCreds = Cookies.get("secret_token");
 
-    const parsedObject = JSON.parse(userCreds);
+    const parsedObject =
+      userCreds !== undefined ? JSON.parse(userCreds) : undefined;
 
     userCreds !== undefined &&
       this.setState({ userCreds: parsedObject }, this.fetchAccountDetails);
@@ -255,8 +256,7 @@ class Profile extends Component {
     const userCreds = Cookies.get("secret_token");
 
     return userCreds === undefined ? (
-      //   <Navigate to="/login" />
-      window.location.replace("/login")
+      <Navigate to="/login" replace={true} />
     ) : (
       <div className="container">
         <Sidebar />
