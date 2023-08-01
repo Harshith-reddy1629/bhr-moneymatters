@@ -17,7 +17,7 @@ const TransactionRoute = () => {
       </div>
     </div>
   ) : (
-    <Navigate to="/bhr-moneymatters/login" />
+    <Navigate to="/login" />
   );
 };
 

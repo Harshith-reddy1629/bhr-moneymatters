@@ -27,7 +27,7 @@ const Accounts = () => {
 
   const res =
     jwtToken === undefined ? (
-      <Navigate to="/bhr-moneymatters/login" />
+      <Navigate to="/login" />
     ) : (
       <div className="container">
         <Sidebar />
