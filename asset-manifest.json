@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/bhr-moneymatters/static/css/main.12f0d706.css",
-    "main.js": "/bhr-moneymatters/static/js/main.09ca7006.js",
-    "static/js/121.c41f6dc5.chunk.js": "/bhr-moneymatters/static/js/121.c41f6dc5.chunk.js",
-    "index.html": "/bhr-moneymatters/index.html",
-    "main.12f0d706.css.map": "/bhr-moneymatters/static/css/main.12f0d706.css.map",
-    "main.09ca7006.js.map": "/bhr-moneymatters/static/js/main.09ca7006.js.map",
-    "121.c41f6dc5.chunk.js.map": "/bhr-moneymatters/static/js/121.c41f6dc5.chunk.js.map"
+    "main.css": "/harshith-moneymatters-app/static/css/main.12f0d706.css",
+    "main.js": "/harshith-moneymatters-app/static/js/main.8da359bf.js",
+    "static/js/121.c41f6dc5.chunk.js": "/harshith-moneymatters-app/static/js/121.c41f6dc5.chunk.js",
+    "index.html": "/harshith-moneymatters-app/index.html",
+    "main.12f0d706.css.map": "/harshith-moneymatters-app/static/css/main.12f0d706.css.map",
+    "main.8da359bf.js.map": "/harshith-moneymatters-app/static/js/main.8da359bf.js.map",
+    "121.c41f6dc5.chunk.js.map": "/harshith-moneymatters-app/static/js/121.c41f6dc5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.12f0d706.css",
-    "static/js/main.09ca7006.js"
+    "static/js/main.8da359bf.js"
   ]
 }
